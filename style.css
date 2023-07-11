@@ -1,39 +1,222 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
 }
-.header{
+
+.header {
     width: 100%;
     height: 80vh;
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     background-image: url('Flower Asset/pngwing 10.png');
     background-position: 90% 70%;
-    background-repeat:no-repeat ;
+    background-repeat: no-repeat;
     background-size: contain;
-    
+
 }
-.header-title{
+
+.header-title {
     color: #272727;
     font-weight: 800;
     font-size: 60px;
-    
+
 }
-.header-description{
+
+.header-description {
     color: rgba(39, 39, 39, 0.60);
     font-weight: 400;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.text-part{
-margin-left: 150px;
-margin-top: 100px;
+
+.text-part {
+    margin-left: 150px;
+    margin-top: 100px;
 }
-.btn{
- padding: 10px 25px;
- border-radius: 5px;
- border: 0px;
- color: white;
- background-color: #E55473;
+
+.btn {
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    background-color: #E55473;
+}
+
+.feature-section-description {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.feature-section-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.feature-section-title {
+    color: #272727;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.box-1 {
+    width: 300px;
+    height: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    background-image: url('Flower Asset/pngwing 10.png');
+    background-position: center;
+    background-size: 70%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+}
+
+.box-2 {
+    width: 300px;
+    height: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    background-image: url('Flower Asset/pngwing 5.png');
+    background-position: center;
+    background-size: contain;
+    background-position: bottom;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.box-3 {
+    width: 300px;
+    height: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    background-image: url('Flower Asset/pngwing 7.png');
+    background-position: center;
+    background-size: contain;
+    background-position: bottom;
+    background-size: 70%;
+    background-repeat: no-repeat;
+
+}
+
+.all-box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.box-img {
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.tree-section {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.service {
+    height: 250px;
+    width: 68%;
+    margin: auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 128px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.deal-section {
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 450px;
+    margin-top: 128px;
+}
+
+.deal-section-div {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deal-section-div-des {
+    text-align: center;
+}
+
+.btn-margin {
+    margin-top: 20px;
+}
+
+.instagram-sec {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.instagram-sec-img {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.img-size {
+    width: 250px;
+    height: 280px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner {
+    margin-top: 30px;
+    width: 100%;
+    background-image: url('Flower Asset/Rectangle 9.png');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.instagram-section-1 {
+    width: 80%;
+    margin: auto;
+}
+
+.banner-des {
+    text-align: center;
+}
+
+input {
+    width: 500px;
+    height: 35px;
+    padding: 10px;
+    margin-right: 16px;
+    border: 0px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    color: black;
 }
