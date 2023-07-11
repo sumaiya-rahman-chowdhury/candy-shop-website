@@ -218,5 +218,42 @@ input {
 .footer {
     width: 100%;
     height: 300px;
-    color: black;
+    background: #111010;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+span {
+    color: #E55473;
+}
+
+.txt-cl {
+    color: white;
+}
+
+.footer-h6 {
+    color: white;
+    margin-top: 30px;
+}
+
+.extra-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: #f5acbc;
+}
+
+.extra-div-sec {
+    width: 80%;
+    margin: auto;
+}
+
+.extra-div-img {
+    height: 200px;
+    width: 200px;
+    padding: 50px 10px;
 }
